@@ -1,0 +1,21 @@
+.movie-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 18rem;
+
+  .movie-cover {
+    border-radius: var(--card-radius);
+    object-fit: cover;
+    height: 100%;
+    -webkit-filter: brightness(100%);
+    transition: all 0.1s ease;
+
+    &:hover {
+      cursor: pointer;
+      -webkit-filter: brightness(70%);
+      transition: all 0.1s ease;
+    }
+  }
+}

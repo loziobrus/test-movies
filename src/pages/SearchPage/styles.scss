@@ -1,0 +1,26 @@
+.search-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 20%;
+
+  .search-bar {
+    width: 30rem;
+  }
+
+  .pagination {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-bottom: 1rem;
+
+    li {
+      margin: 0 0.2rem;
+
+      &.active {
+        color: #535bf2;
+      }
+    }
+  }
+}
